@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas 1.0</title>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+</head>
+
+<style>
+    body {
+        background: #020024;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    }
+</style>
+
+<body>
+    <main class="container d-flex flex-column justify-content-center align-items-center vh-100">
+        <form action="resposta.php" method="get" class="px-3 py-5 w-50 bg-light rounded-3 shadow">
+            <h2 class="fw-bold">Conversor de Moedas v2.0</h2>
+            <div class="my-2">
+                <label for="numero" class="form-label py-1 px-3 rounded-pill bg-primary text-white">Quantos R$ você tem na carteira?</label>
+                <input type="number" class="form-control" id="numero" placeholder="000" name="numero">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Converter</button>
+        </form>
+    </main>
+
+    <script src="public/js/bootstrap.min.js"></script>
+</body>
+
+</html>
