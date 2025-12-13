@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moedas 1.0</title>
+    <title>Analisador de Número Real</title>
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
 </head>
 
@@ -18,12 +18,12 @@
 <body>
     <main class="container d-flex flex-column justify-content-center align-items-center vh-100">
         <form action="resposta.php" method="get" class="px-3 py-5 w-50 bg-light rounded-3 shadow">
-            <h2 class="fw-bold">Conversor de Moedas v2.0</h2>
+            <h2 class="fw-bold">Analisador de Número Real</h2>
             <div class="my-2">
-                <label for="numero" class="form-label py-1 px-3 rounded-pill bg-primary text-white">Quantos R$ você tem na carteira?</label>
+                <label for="numero" class="form-label py-1 px-3 rounded-pill bg-primary text-white">Número real:</label>
                 <input type="number" class="form-control" id="numero" placeholder="000" name="numero" step="0.01">
             </div>
-            <button type="submit" class="btn btn-primary w-100">Converter</button>
+            <button type="submit" class="btn btn-primary w-100">Analisar</button>
         </form>
     </main>
 
